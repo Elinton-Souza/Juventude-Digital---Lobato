@@ -1,0 +1,107 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(163, 157, 157);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+}
+
+.subtitulo1 {
+    text-align: justify;
+    font-size: small;
+}
+
+.subtitulo2 {
+    text-align: justify;
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.paragrafo1 {
+    margin: 30px;
+}
+
+.sublinhado {
+    text-decoration: underline;
+    color: blue;
+    font-size: larger;
+}
+
+.paragrafo2 {
+    margin-bottom: 20px;
+}
+
+.imagens {
+    height: 70%;
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    border: 10px solid black;
+    border-radius: 8px;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.listasOrdenadas1 {
+    font-weight: 600;
+}
+
+.listasOrdenadas2 {
+    font-weight: 300;
+}
+
+.listasOrdenadas3 {
+    font-weight: 300;
+}
+
+.listasOrdenadas4 {
+    font-weight: 300;
+}
+
+.listasNordenadas1 {
+    font-weight: 600;
+}
+
+.listasNordenadas2 {
+    font-weight: 300;
+}
+
+.listasNordenadas3 {
+    font-weight: 300;
+}
+
+.listasNordenadas4 {
+    font-weight: 300;
+}
+
+
+.botao {
+    color: yellow;
+    background-color: seagreen;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
