@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 100px;
+    border: 1px solid green;
+    padding: 20px;
+}
+
+a {
+    border: 3px solid black;
+    font-size: 20px;
+    margin: 30px;
+}
+
+li {
+    margin: 60px;
+}
+
+ul {
+    margin: 13px;
+    border: 1px solid salmon
+}

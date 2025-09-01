@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(109, 109, 109);
+}
+
+.cabecalho_div {
+    color: rgb(215, 215, 148);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 75px;
+}
+
+ol {
+    padding: 10px;
+    display: flex;
+    gap: 60px;
+    padding: 45px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px solid yellow;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}

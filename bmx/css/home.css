@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right,
+            #006600 0%,
+            #d6001c 33.33%,
+            #d6001c 50.66%,
+            #ffcc29 100%);
+}
+
+img {
+    max-width: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.redes_sociais {
+    padding: 10px;
+}
+
+.navbar {
+    background: transparent
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: black;
+}
+
+.navbar_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.navbar_li {
+    list-style: none;
+}
+
+.cabecalho {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_cabecalho {}
+
+.subtitulo_cabecalho {}
+
+.cards {
+    text-align: center;
+    padding: 15px;
+}
+
+.cards_videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    object-fit: cover;
+}
+
+.cards_videos a {}
+
+.cards_videos video {
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
