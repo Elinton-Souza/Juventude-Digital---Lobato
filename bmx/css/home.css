@@ -3,19 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
 }
 
 body {
     min-height: 100vh;
     background: linear-gradient(to right,
-            #006600 0%,
-            #d6001c 33.33%,
+            #006600 10%,
             #d6001c 50.66%,
             #ffcc29 100%);
 }
 
 img {
-    max-width: 100px;
+    height: 70px;
+    padding: auto;
 }
 
 .header {
@@ -26,7 +27,15 @@ img {
 }
 
 .redes_sociais {
-    padding: 10px;
+    padding: 20px;
+}
+
+.redes_sociais {
+    padding: auto;
+}
+
+.redes_sociais i {
+    padding: 5px;
 }
 
 .navbar {
@@ -48,6 +57,13 @@ hr {
 
 .navbar_li {
     list-style: none;
+}
+
+.navbar_li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
 
 .cabecalho {
