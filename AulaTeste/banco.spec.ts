@@ -15,4 +15,9 @@ describe("Conta Corrente", () => {
     const conta = new ContaCorrente("Maria", 100, 200);
     expect(() => conta.sacar(500)).toThrow();
   });
+  it("Deve recusar depósito negativo na conta corrente", () => {
+    const conta = new ContaCorrente("Maria", 100, 200);
+    const deposito = conta.depositar(-50);
+    expect(deposito).toBe("O valor do depósito deve ser positivo.");
+  });
 });
